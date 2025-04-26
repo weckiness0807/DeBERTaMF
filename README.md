@@ -11,7 +11,7 @@
 
 ### How to Run
 
-预处理数据的代码参考： DeBERTaMF-master/run_test_preprocess.sh
-运行代码参考：DeBERTaMF-master/run_test_ConvMF.sh
+- 预处理数据的代码参考： DeBERTaMF-master/run_test_preprocess.sh
+- 运行代码参考：DeBERTaMF-master/run_test_ConvMF.sh
 
-可以使用 DeBERTaMF-master/get_small_data.py 获得小数据集测试代码运行状况。
+- 可以使用 DeBERTaMF-master/get_small_data.py 获得小数据集测试代码运行状况。
