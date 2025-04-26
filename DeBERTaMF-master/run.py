@@ -1,7 +1,9 @@
 '''
 Created on Dec 9, 2015
-
 @author: donghyun
+
+Modified in May, 2015
+@author: Wecky
 '''
 import argparse
 import sys
@@ -67,6 +69,7 @@ data_factory = Data_Factory()
 max_length = args.max_length_document
 
 if do_preprocess:
+  # preprocess the data
     path_rating = args.raw_rating_data_path
     path_itemtext = args.raw_item_document_data_path
     min_rating = args.min_rating
@@ -89,6 +92,7 @@ if do_preprocess:
     data_factory.generate_train_valid_test_file_from_R(
         data_path, R, split_ratio)
 else:
+  # train
     res_dir = args.res_dir
     emb_dim = args.emb_dim
     pretrain_w2v = args.pretrain_w2v
